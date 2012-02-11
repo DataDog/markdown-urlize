@@ -4,7 +4,7 @@ from setuptools import find_packages
 
 setup(
     name='markdown-urlize',
-    version='1.0.0',
+    version='1.0.1',
     description="A python-markdown extension for linkifying inline urls",
     maintainer='Kit Sunde',
     maintainer_email='kitsunde@gmail.com',
