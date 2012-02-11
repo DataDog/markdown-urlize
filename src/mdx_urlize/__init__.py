@@ -60,7 +60,7 @@ class UrlizePattern(markdown.inlinepatterns.Pattern):
                 url = 'mailto:' + url
             else:
                 url = 'http://' + url
-    
+
         el = markdown.util.etree.Element("a")
         el.set('href', url)
         el.set('target', '_blank')
