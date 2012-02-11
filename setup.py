@@ -9,6 +9,7 @@ setup(
     maintainer='Kit Sunde',
     maintainer_email='kitsunde@gmail.com',
     url='https://github.com/Celc/markdown-urlize',
-    packages=['mdx_urlize'],
-    package_dir={'mdx_urlize': 'src/mdx_urlize'},
+    install_requires=[],
+    setup_requires=[],
+    packages=find_packages(),
 )
