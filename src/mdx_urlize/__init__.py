@@ -61,7 +61,7 @@ class UrlizePattern(markdown.inlinepatterns.Pattern):
             else:
                 url = 'http://' + url
 
-        el = markdown.util.etree.Element("a")
+        el = markdown.etree.Element("a")
         el.set('href', url)
         el.set('target', '_blank')
         el.text = markdown.AtomicString(text)
