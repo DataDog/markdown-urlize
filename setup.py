@@ -4,11 +4,11 @@ from setuptools import find_packages
 
 setup(
     name='markdown-urlize',
-    version='1.0.1',
+    version='1.0.2',
     description="A python-markdown extension for linkifying inline urls",
-    maintainer='Kit Sunde',
-    maintainer_email='kitsunde@gmail.com',
-    url='https://github.com/Celc/markdown-urlize',
+    maintainer='Datadog, Inc.',
+    maintainer_email='packages@datadoghq.com',
+    url='https://github.com/Datadog/markdown-urlize',
     install_requires=[],
     setup_requires=[],
     packages=find_packages(),
